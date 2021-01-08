@@ -10,7 +10,7 @@ body{
     padding:2rem 10rem 2rem 10rem;
     margin:2px solid black;
 }
-h1,h3{
+h1{
     text-align: center;
 }
 .btn{
@@ -32,7 +32,7 @@ h1,h3{
         align-items: center;
         font-style: italic;
         width:30%;
-        padding: 0rem 1rem 1rem 30rem;
+        padding: 0rem 1rem 1rem 1rem;
         
     }
     input{
