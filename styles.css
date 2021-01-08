@@ -1,5 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+body{
+    font-family: 'Cinzel', serif;
+    background-color: #F9F1CB;
+    letter-spacing: 1px;
+    display:flex;
+}
 #main-container{
     padding:2rem 10rem 2rem 10rem;
+    margin:2px solid black;
+}
+h1,h3{
+    text-align: center;
 }
 .btn{
     text-transform: uppercase;
@@ -8,6 +20,21 @@
         font-family: 'Libre Baskerville', serif;
         margin: 1px 5px;
         padding: 0.5em 1em;
-        background-color: yellow;
+        background-color: #005247;
         letter-spacing: 1px;
+        color:#F9F1CB ;
+    }
+
+    #output{
+        font-size:large;
+        
+        width:auto;
+        align-items: center;
+        font-style: italic;
+        width:30%;
+        padding: 0rem 1rem 1rem 30rem;
+        
+    }
+    input{
+        padding:0.2rem;
     }

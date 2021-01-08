@@ -13,9 +13,11 @@ function clickEventHandler(){
     var investedAmount = unitp*qty_purchased;
     var todayreturns = qty_purchased*latestPrice;
     if(todayreturns>investedAmount){
+        outputref.style.color="green";
         outputref.innerText="Congratulations!!\nYou have made a profit of "+ (((todayreturns-investedAmount)/investedAmount)*100)+"%";
     }
     else{
+        outputref.style.color="red";
         outputref.innerText="Oops! You've incurred a loss of "+ (((investedAmount-todayreturns)/investedAmount)*100)+ "%";
     }
 }
