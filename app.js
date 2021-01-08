@@ -19,7 +19,12 @@ function clickEventHandler() {
             outputref.style.color = "green";
             outputref.innerText = "Congratulations!!\nYou have made a profit of " + (((todayreturns - investedAmount) / investedAmount) * 100) + "%";
         } 
-        else {
+        else if(investedAmount==todayreturns){
+            outputref.style.color = "black";
+            outputref.innerText = "Neither Profit nor Loss. Change is " + (((investedAmount - todayreturns) / investedAmount) * 100) + "%";
+        }
+        else 
+        {
             outputref.style.color = "red";
             outputref.innerText = "Oops! You've incurred a loss of " + (((investedAmount - todayreturns) / investedAmount) * 100) + "%";
         }
