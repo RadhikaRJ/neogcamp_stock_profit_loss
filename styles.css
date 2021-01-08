@@ -1,3 +1,13 @@
 #main-container{
     padding:2rem 10rem 2rem 10rem;
 }
+.btn{
+    text-transform: uppercase;
+    border: solid 1px transparent;
+        border-radius: 4px;
+        font-family: 'Libre Baskerville', serif;
+        margin: 1px 5px;
+        padding: 0.5em 1em;
+        background-color: yellow;
+        letter-spacing: 1px;
+    }
